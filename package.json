@@ -12,5 +12,13 @@
         "run-tests.html",
         "test"
     ],
-    "bundle": [ "ui/main.reel" ]
+    "bundle": [
+        "ui/main.reel"
+    ],
+    "author": {
+        "name": "Harald Meyer",
+        "email": "h.meyer@hm-software.de",
+        "url": ""
+    },
+    "homepage": "www.hm-software.de"
 }
