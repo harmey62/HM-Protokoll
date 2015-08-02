@@ -30,7 +30,20 @@
         "list": {
             "prototype": "digit/ui/list.reel",
             "properties": {
-                "element": {"#": "list"}
+                "element": {"#": "list"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true"
+            }
+        },
+        "text": {
+            "prototype": "digit/ui/text.reel",
+            "properties": {
+                "element": {"#": "text"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true",
+                "value": "Text"
             }
         },
         "title": {
@@ -50,10 +63,17 @@
         <h1 data-montage-id="title">
             <button data-montage-id="button"></button>
         </h1>
+        <p data-montage-id="text"></p>
         <ul data-montage-id="list">
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
+            <li>
+                a
+            </li>
+            <li>
+                b
+            </li>
+            <li>
+                c
+            </li>
         </ul>
     </div>
 </body>
